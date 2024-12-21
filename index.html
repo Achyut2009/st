@@ -518,7 +518,7 @@
             <li><a href="#" id="home">HOME</a></li>
             <li><a href="#" id="about-link">ABOUT</a></li>
             <li><a href="#" id="personal1">FOUNDERS</a></li>
-            <li><a href="Signup.html" id="personal2" target="_blank">SIGN UP/LOGIN</a></li>
+            <li><a href="Signup.html" id="signuplogin" target="_blank">SIGN UP/LOGIN</a></li>
         </ul>
     </header>
 
@@ -653,12 +653,6 @@
     document.getElementById('home').addEventListener('click', function (e) {
         e.preventDefault(); // Prevent default anchor behavior
         document.getElementById('section').scrollIntoView({ behavior: 'smooth' });
-    });
-
-    // Scroll to Education Section when "EDUCATION" is clicked
-    document.getElementById('education1').addEventListener('click', function (e) {
-        e.preventDefault(); // Prevent default anchor behavior
-        document.getElementById('education').scrollIntoView({ behavior: 'smooth' });
     });
 
     // Scroll to Awards Section when "AWARDS" is clicked
